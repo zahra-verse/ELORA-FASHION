@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÉLORA | Fashion Boutique</title><link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+<header class="navbar">
+    <a href="#" class="logo">ÉLORA<span>.</span></a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+   <button class="cart" id="cart-button">
+    <span>Bag ♡</span>
+    <span class="cart-count" id="cart-count">0</span>
+</button>
+</header>
+
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="subtitle">THE NEW COLLECTION</p>
+
+        <h1>Made to Be <br> Elegant.</h1>
+
+        <p class="hero-text">
+            Discover timeless pieces that make every moment special.
+        </p>
+
+        <a href="#shop" class="shop-btn">SHOP NOW ↗</a>
+    </div>
+</section>
+
+
+<!-- Categories Section -->
+<section class="categories" id="categories">
+
+    <div class="section-heading">
+        <p>EXPLORE OUR COLLECTION</p>
+        <h2>Shop by Category</h2>
+    </div>
+
+    <div class="category-list">
+        <button class="category-btn active" data-category="all">All</button>
+        <button class="category-btn" data-category="shirts">Shirts</button>
+        <button class="category-btn" data-category="dresses">Dresses</button>
+        <button class="category-btn" data-category="jackets">Jackets</button>
+        <button class="category-btn" data-category="accessories">Accessories</button>
+    </div>
+
+</section>
+
+
+<!-- Products Section -->
+<section class="products" id="shop">
+
+    <div class="section-heading">
+        <p>HANDPICKED FOR YOU</p>
+        <h2>Our Best Sellers</h2>
+    </div>
+
+    <div class="product-grid" id="product-grid">
+
+    <div class="product-card" data-category="shirts">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=600" alt="White Shirt">
+        </div>
+        <h3>Classic White Shirt</h3>
+        <p>$35.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="dresses">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600" alt="Summer Dress">
+        </div>
+        <h3>Elegant Summer Dress</h3>
+        <p>$65.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="jackets">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600" alt="Beige Jacket">
+        </div>
+        <h3>Classic Beige Jacket</h3>
+        <p>$89.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="accessories">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600" alt="Leather Bag">
+        </div>
+        <h3>Minimal Leather Bag</h3>
+        <p>$55.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="shirts">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600" alt="Beige Blouse">
+        </div>
+        <h3>Soft Beige Blouse</h3>
+        <p>$42.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="accessories">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600" alt="Jewelry">
+        </div>
+        <h3>Golden Jewelry Set</h3>
+        <p>$29.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="dresses">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600" alt="Pink Dress">
+        </div>
+        <h3>Romantic Pink Dress</h3>
+        <p>$72.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="shirts">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600" alt="Casual Shirt">
+        </div>
+        <h3>Everyday Casual Shirt</h3>
+        <p>$38.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="jackets">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600" alt="Leather Jacket">
+        </div>
+        <h3>Classic Leather Jacket</h3>
+        <p>$95.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="accessories">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600" alt="Handbag">
+        </div>
+        <h3>Luxury Handbag</h3>
+        <p>$68.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+    <div class="product-card" data-category="dresses">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600" alt="Black Dress">
+        </div>
+        <h3>Little Black Dress</h3>
+        <p>$79.00</p>
+        <button class="add-btn">Add to Bag +</button>
+    </div>
+
+   
+        
+    </div>
+
+</section>
+<div class="cart-overlay" id="cart-overlay">
+
+    <div class="cart-panel">
+
+        <div class="cart-header">
+            <h2>Your Shopping Bag</h2>
+            <button id="close-cart">×</button>
+        </div>
+
+        <div id="cart-items"></div>
+
+        <div class="cart-footer">
+            <h3>Total: $<span id="cart-total">0.00</span></h3>
+            <button id="clear-cart">Clear Cart</button>
+          
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- Footer -->
+<footer id="contact">
+
+    <div class="footer-logo">ÉLORA.</div>
+
+    <p>Made to Be Elegant.</p>
+
+    <div class="social-links">
+        <a href="https://instagram.com">Instagram</a>
+        <a href="https://pinterest.com">Pinterest</a>
+        <a href="https://facebook.com">Facebook</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 ÉLORA Fashion Boutique. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
